@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minha primeira página</title>
+    <meta charset="utf-8">
+
+    <!-- <meta charset="iso-8859-15"> -->
+
+    <meta name="author" content="Valdair">
+    <meta name="description" content="descrição top">
+    <meta name="keywords" content="html5, tecnologia">
+</head>
+
+<body>
+
+    <form action="https://www.google.com/search" method="GET">
+
+
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <div>
+                <label for="txtbusca">Nome</label>
+                <input type="text" required maxlength="10" placeholder="Informe seu nome">
+            </div>
+            <div>
+                <label for="txtIdade">idade</label>
+                <input type="number" min="0" max="50" step="5" id="txtIdade">
+            </div>
+            <div>
+                <label for="txtEmail">E-mail</label>
+                <input type="email" required>
+            </div>
+
+        </fieldset>
+        <div>
+            <label for="txtEmail">Senha</label>
+            <input type="password">
+        </div>
+
+
+        <div>
+            <label for="txtEmail">Senha</label>
+            <input type="password">
+        </div>
+
+
+        <div>
+            <label for="txtEmail">Data Nasc</label>
+            <input type " max=" 2021-07-20">
+        </div>
+
+
+        <div>
+            <label>Sexo:</label>
+            <label>
+                Masculino
+                <input type="radio" name="sexo" value="M">
+            </label>
+            <label>
+                Feminino
+                <input type="radio" name="sexo" value="F">
+            </label>
+        </div>
+
+        <div>
+            <input type="hidden" name="expira" value="2021-12-30">
+        </div>
+
+        <select name="estado">
+            <option value="0">Selecione</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+
+        <label><input type="checkbox" name="html" value="html">HTML</label>
+        <label><input type="checkbox" name="css" value="css">CSS</label>
+        <label><input type="checkbox" name="JS" value="JS">Javascript</label>
+
+        <textarea style="resize: none">
+
+        </textarea>
+
+        <input type="color">
+
+        <input type="file">
+
+        <input type="range" >
+
+
+        <textarea style="resize: none" name="contrato" 
+        cols="30" rows="10" readonly>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quisquam aperiam recusandae fugit? Magni, magnam obcaecati soluta facere, in minus eum, nulla sequi ducimus tempora ea blanditiis quis ut numquam?
+        </textarea>
+        <label><input type="checkbox" checked>Li e aceito</label>
+        <input type="reset" value="Limpar">
+        <input type="button" value="Botão">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
